@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
  * @author UYEN.TRAN
  */
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)    //do not output null values
-@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonIgnoreProperties(ignoreUnknown = true) //ignore unknown fields
 public class DataModel {
 
     private String year;
