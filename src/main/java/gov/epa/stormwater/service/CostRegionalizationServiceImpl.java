@@ -316,6 +316,7 @@ public class CostRegionalizationServiceImpl implements CostRegionalizationServic
         //perform regionalization calcs
         // set default
         blsCity.setRegionalFactor(DEFAULT_2017_NATIONAL_INDEX);
+
         //calculate dynamic Natinal Index
         if (blsCity.getBlsCity().equalsIgnoreCase("NATIONAL")) {
             blsCity.setRegionalFactor(blsCity.c0_intercept
